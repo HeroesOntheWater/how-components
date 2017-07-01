@@ -8,6 +8,6 @@ This library is built using:
 
 3. enzyme for protractor-like emulation
 
-3. babel presets: es2015, react
+3. babel presets: env, flow, react
 
 4. flow
