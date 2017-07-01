@@ -14,4 +14,4 @@ function square(n: number): number {
   return n * n;
 }
 
-square("thad"); // Error!
+square("5"); // Error!
