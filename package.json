@@ -1,0 +1,32 @@
+{
+  "name": "how-components",
+  "version": "1.0.0",
+  "description": "this is a components library using style components + sass",
+  "main": "index.js",
+  "scripts": {
+    "ready": "git add . && git commit -m ",
+    "postready": "git push origin master",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeroesOntheWater/how-components.git"
+  },
+  "keywords": [
+    "sass",
+    "styled-components",
+    "css",
+    "library",
+    "lib",
+    "how",
+    "HOW",
+    "heroes",
+    "water"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HeroesOntheWater/how-components/issues"
+  },
+  "homepage": "https://github.com/HeroesOntheWater/how-components#readme"
+}
