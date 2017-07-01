@@ -8,7 +8,8 @@
     "prepublish": "yarn run build",
     "ready": "git add . && git commit -m ",
     "postready": "git push origin master",
-    "test": "jest --coverage",
+    "test": "jest",
+    "test-watch": "jest --watchAll",
     "flow": "flow"
   },
   "repository": {
@@ -33,6 +34,7 @@
   },
   "homepage": "https://github.com/HeroesOntheWater/how-components#readme",
   "devDependencies": {
+    "axe-core": "^2.3.1",
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.5.2",
     "babel-preset-flow": "^6.23.0",
@@ -41,5 +43,11 @@
     "jest": "^20.0.4",
     "react": "^15.6.1",
     "react-test-renderer": "^15.6.1"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "html"
+    ]
   }
 }
