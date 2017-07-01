@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Welcome (Snapshot) Welcome renders hello world 1`] = `
+exports[`Welcome Welcome renders hello world 1`] = `
 <div>
   Hello world
 </div>

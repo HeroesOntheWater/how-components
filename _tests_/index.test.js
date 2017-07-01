@@ -1,8 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Welcome from '../index.js';
+import Welcome from '../src/index.js';
 
-describe('Welcome (Snapshot)', () => {
+describe('Welcome', () => {
   it('Welcome renders hello world', () => {
     const component = renderer.create(<Welcome />);
     const json = component.toJSON();
