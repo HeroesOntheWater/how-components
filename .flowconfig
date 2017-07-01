@@ -1,7 +1,8 @@
 [ignore]
-_tests_
-coverage
-lib
+./_tests_
+./coverage
+./lib
+./node_modules
 
 [include]
 
