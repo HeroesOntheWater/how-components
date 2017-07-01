@@ -1,4 +1,7 @@
 [ignore]
+_tests_
+coverage
+lib
 
 [include]
 

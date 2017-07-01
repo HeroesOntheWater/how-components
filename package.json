@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "flow; babel src -d lib",
+    "stop-build": "flow stop",
     "prepublish": "yarn run build",
     "ready": "git add . && git commit -m ",
     "postready": "git push origin master",
