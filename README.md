@@ -2,12 +2,12 @@
 
 This library is built using:
 
-1. sass
+1. styled-components
 
-2. styled-components
+2. jest testing
 
-3. jest ( for testing )
+3. enzyme for protractor-like emulation
 
-4. babel
+3. babel presets: es2015, react
 
-5. flow
+4. flow
