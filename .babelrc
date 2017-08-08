@@ -1,4 +1,4 @@
 {
-  "presets": ["flow", "react"]
+  "presets": ["env", "flow", "react"]
   //maybe env needs to be added back
 }

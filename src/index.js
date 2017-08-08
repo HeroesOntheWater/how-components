@@ -1,1 +1,1 @@
-import 'first-component';
+import './components/first-component';
