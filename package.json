@@ -4,9 +4,9 @@
   "description": "this is a components library using style components + sass",
   "main": "index.js",
   "scripts": {
-    "build": "flow; babel src -d lib",
+    "build": "flow && babel src -d lib",
     "stop-build": "flow stop",
-    "prepublishOnly": "yarn run build",
+    "prepublishOnly": "npm run build",
     "ready": "git config push.default current && git pull origin master && git add . && git commit -m ",
     "postready": "git push -u",
     "test": "jest",
