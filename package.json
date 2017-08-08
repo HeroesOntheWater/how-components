@@ -6,9 +6,9 @@
   "scripts": {
     "build": "flow; babel src -d lib",
     "stop-build": "flow stop",
-    "prepublish": "yarn run build",
-    "ready": "git add . && git commit -m ",
-    "postready": "git push origin master",
+    "prepublishOnly": "yarn run build",
+    "ready": "git config push.default current && git pull origin master && git add . && git commit -m ",
+    "postready": "git push -u",
     "test": "jest",
     "test-watch": "jest --watchAll",
     "flow": "flow"
