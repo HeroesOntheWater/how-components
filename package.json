@@ -7,7 +7,8 @@
     "build": "flow && babel src -d lib",
     "stop-build": "flow stop",
     "prepublishOnly": "npm run build",
-    "ready": "git config push.default current && git pull origin master && git add . && git commit -m ",
+    "prettier": "prettier --tab-width 2 --single-quote --write \"./src/**/*.js\"",
+    "ready":  "npm run prettier && npm run build && npm run test && git config push.default current && git pull origin master && git add . && git commit -m ",
     "postready": "git push -u",
     "test": "jest",
     "test-watch": "jest --watchAll",
@@ -44,6 +45,7 @@
     "flow": "^0.2.3",
     "flow-bin": "^0.49.1",
     "jest": "^20.0.4",
+    "prettier": "^1.5.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-test-renderer": "^15.6.1"
