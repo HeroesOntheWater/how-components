@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Welcome from '../src/index.js';
+import { Welcome } from '../src';
 import axe from 'axe-core';
 
 describe('Welcome', () => {
